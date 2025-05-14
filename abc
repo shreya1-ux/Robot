@@ -7,3 +7,20 @@ list2=(12,14,-95,3)
 for i in list2:
     if i>=0:
         print("12,14,3")
+
+setE={1,2,3,4,5}
+setN={0,2,4,6,8}
+
+#union
+print (setE | setN)
+
+#intersection
+print (setE & setN)
+
+#difference
+result = setN - setE
+print(result)
+
+#symmetric difference
+result = setE.symmetric_difference(setN)
+print(result)
